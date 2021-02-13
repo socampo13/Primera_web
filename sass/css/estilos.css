@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*VARIABLES*/
 * {
   margin: 0;
@@ -35,6 +36,11 @@ ul {
   justify-content: center;
   align-items: center; }
 
+.welcome {
+  font-size: large;
+  color: #b0aaad;
+  /*Este es color que se utilizará para textos*/ }
+
 /*#menu li>a:hover{
     background-color: #FCCB1A;
   }*/
@@ -66,9 +72,8 @@ ul {
 .container > .sidebar,
 .container > .footer,
 .container > div {
-  background: #fff;
-  padding: 20px;
-  border: 1px solid #000000; }
+  background: none;
+  padding: 20px; }
 
 .container .header,
 .container .footer {
@@ -81,7 +86,7 @@ ul {
   grid-row: span 4; }
 
 .content > .article {
-  background: #808e9b;
+  background: #1e272e;
   padding: 20px;
   margin-top: 5px;
   color: #dfe6e9; }
@@ -150,10 +155,10 @@ ul li:hover ul {
 .article {
   font-weight: bolder; }
   .article__welcome {
-    color: #000;
+    color: #fff;
     font-size: xx-large; }
   .article__nosotros {
-    color: #000;
+    color: #fff;
     font-size: xx-large; }
 
 /*HERRRAMIENTAS CON SASS*/

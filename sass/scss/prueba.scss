@@ -44,7 +44,10 @@ $letra: 1.5rem;
     justify-content:center;
     align-items: center;
   }
-                          
+  .welcome{
+    font-size: large;
+    color: #b0aaad; /*Este es color que se utilizará para textos*/
+  }                    
   /*#menu li>a:hover{
     background-color: #FCCB1A;
   }*/
@@ -78,9 +81,9 @@ $letra: 1.5rem;
   .container > .sidebar,
   .container > .footer,
   .container > div{
-    background: #fff;
+    background: none;
     padding: 20px;
-    border: 1px solid #000000;
+    
   }
   
   .container .header,
@@ -96,7 +99,7 @@ $letra: 1.5rem;
   }
   
   .content > .article{
-    background: #808e9b;
+    background: #1e272e;
     padding: 20px;
     margin-top: 5px;
     color: #dfe6e9;
@@ -171,11 +174,11 @@ $letra: 1.5rem;
   .article{
       font-weight: bolder;
       &__welcome{
-          color: #000;
+          color: #fff;
           font-size: xx-large;
       }
       &__nosotros{
-          color: #000;
+          color: #fff;
           font-size: xx-large;
       }
   }
