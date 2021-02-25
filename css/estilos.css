@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+.no-gutters {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
 
 body{
    /* background-color: #ecf0f1; */
@@ -27,7 +31,7 @@ ul{
   font-size: xx-large;
   text-align: center;
   padding: 20px;
-  width: 100px;
+  
   height: 40px;
   margin: auto;
   border: medium;
@@ -125,7 +129,6 @@ ul{
 }
 li{
   display: inline-block;
-  width: 25%;
   position: relative;
   font-size: 14px;
 }

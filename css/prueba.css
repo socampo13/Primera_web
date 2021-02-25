@@ -1,0 +1,31 @@
+.no-gutters {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.banner {
+    background-image: url(../imgs/bogota-2207059_1920.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}
+.display-1 {
+    font-size: 2.5rem;
+}
+.lead {
+    font-size: 1rem;
+}
+main {
+    background-color: teal;
+    color: white;
+}
+.icono {
+    width: 100px;
+}
+.banner_icons {
+    background-color: khaki;
+}
+.navbar {
+    background-color: white;
+}
