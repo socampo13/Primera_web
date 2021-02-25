@@ -16,8 +16,8 @@
 .lead {
   font-size: 1rem; }
 
-main {
-  background-color: teal;
+.bienvenida {
+  background-color: #74e2e2;
   color: white; }
 
 .icono {
@@ -28,3 +28,6 @@ main {
 
 .navbar {
   background-color: white; }
+
+.text-body {
+  font-weight: bolder; }
